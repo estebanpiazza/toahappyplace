@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mí</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .content {
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+        }
+        .button {
+            background-color: #353f4a;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #242a31;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Sobre mí</h1>
+        <p>Hola, soy Esteban Piazza, un profesor de informática de Argentina, nacido en 1993. He vivido una vida más o menos normal, trabajando a diario, haciendo ejercicio, disfrutando de una vida social, y persiguiendo metas, objetivos y sueños.</p>
+        <p>Un juego que cambió mi perspectiva fue "Outer Wilds". Después de terminarlo (sin entrar en spoilers), me quedé con una sensación de vacío. Tras pasar horas viajando en la nave y no tener la posibilidad de seguir jugando, decidí crear esta experiencia que se asemeja un poco a ese sentimiento de viajar por el espacio sin un rumbo fijo y detenerse por un momento de nuestra vida cotidiana.</p>
+        <p>En general, los hombres estamos bajo mucha presión social y laboral. Se nos exige muchísimo por parte de nuestro entorno. La idea de esta experiencia es "viajar a ese lugar feliz" durante unos momentos, quizás durante el día o la noche, donde solo importa estar unos minutos, descansando, mirando cómo todo gira alrededor sin saber bien a dónde ir, pero pudiendo quizás meditar o simplemente estar.</p>
+        <button class="button" onclick="window.history.back()">Volver</button>
+    </div>
+</body>
+</html>
